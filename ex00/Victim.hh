@@ -1,10 +1,4 @@
-//
-//  Victim.hpp
-//  homework7.10
-//
-//  Created by 郭晨成 on 2018/7/10.
-//  Copyright © 2018年 chenchengguo. All rights reserved.
-//
+
 
 #ifndef Victim_hpp
 #define Victim_hpp
@@ -16,7 +10,7 @@ protected:
     Victim();
 public:
     explicit Victim(std::string const& name);
-    virtual ~Victim();
+    ~Victim();
     std::string const& getName() const;
     
     virtual void changeName(std::string name);
@@ -28,4 +22,5 @@ protected:
 private:
 };
 
+std::ostream & operator<<(std::ostream & os, Victim & victim);
 #endif

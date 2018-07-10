@@ -1,10 +1,3 @@
-//
-//  Victim.cpp
-//  homework7.10
-//
-//  Created by 郭晨成 on 2018/7/10.
-//  Copyright © 2018年 chenchengguo. All rights reserved.
-//
 
 #include "Victim.hpp"
 #include <iostream>
@@ -39,4 +32,8 @@ void Victim::introduceSelf(){
 
 void Victim::getPolymorphed() const{
     std::cout << getName() << " has been turned into a cute little sheep !"<< std::endl;
+}
+
+std::ostream & operator<<(std::ostream & os, Victim & victim) {
+    return os << "I'm " << victim.getName() << " and i like otters !" << std::endl;
 }

@@ -1,10 +1,3 @@
-//
-//  Sorcerer.cpp
-//  homework7.10
-//
-//  Created by 郭晨成 on 2018/7/10.
-//  Copyright © 2018年 chenchengguo. All rights reserved.
-//
 
 #include "Sorcerer.hpp"
 #include <iostream>
@@ -45,4 +38,8 @@ void Sorcerer::introduceSelf(){
 
 void Sorcerer::polymorph(Victim const & victim) const{
     victim.getPolymorphed();
+}
+
+std::ostream & operator<<(std::ostream & os, Sorcerer & sorcerer) {
+    return os << "I am " << sorcerer.getName() << ", " << sorcerer.getTitle() << ", and I like ponies !" << std::endl;
 }

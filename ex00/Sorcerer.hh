@@ -1,10 +1,4 @@
-//
-//  Sorcerer.hpp
-//  homework7.10
-//
-//  Created by 郭晨成 on 2018/7/10.
-//  Copyright © 2018年 chenchengguo. All rights reserved.
-//
+
 
 #ifndef Sorcerer_hpp
 #define Sorcerer_hpp
@@ -28,4 +22,6 @@ protected:
     std::string _title;
 private:
 };
+
+std::ostream & operator<<(std::ostream & os, Sorcerer & sorcerer);
 #endif

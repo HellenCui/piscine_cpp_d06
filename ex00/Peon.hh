@@ -1,10 +1,3 @@
-//
-//  Peon.hpp
-//  homework7.10
-//
-//  Created by 郭晨成 on 2018/7/10.
-//  Copyright © 2018年 chenchengguo. All rights reserved.
-//
 
 #ifndef Peon_hpp
 #define Peon_hpp
@@ -19,6 +12,7 @@ protected:
 public:
     explicit Peon(std::string const & name);
     virtual ~Peon();
+    virtual void getPolymorphed() const;
 protected:
 };
 

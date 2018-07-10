@@ -1,10 +1,3 @@
-//
-//  Peon.cpp
-//  homework7.10
-//
-//  Created by 郭晨成 on 2018/7/10.
-//  Copyright © 2018年 chenchengguo. All rights reserved.
-//
 
 #include "Peon.hpp"
 #include <iostream>
@@ -18,4 +11,8 @@ Peon::Peon(std::string const & name) : Victim(name){
 
 Peon::~Peon() {
     std::cout << "Bleuark..."<< std::endl;
+}
+
+void Peon::getPolymorphed() const{
+    std::cout << getName() << " has been turned into a pink pony !"<< std::endl;
 }
