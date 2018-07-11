@@ -1,10 +1,10 @@
 
-#ifndef Character_hpp
-#define Character_hpp
+#ifndef Character_hh
+#define Character_hh
 
 #include <string>
-#include "AWeapon.hpp"
-#include "AEnemy.hpp"
+#include "AWeapon.hh"
+#include "AEnemy.hh"
 class Character{
 protected:
     Character();

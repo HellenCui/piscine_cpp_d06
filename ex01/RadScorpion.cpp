@@ -1,5 +1,5 @@
 
-#include "RadScorpion.hpp"
+#include "RadScorpion.hh"
 #include <iostream>
 RadScorpion::RadScorpion(){
     std::cout  << "* click click click *" <<std::endl;

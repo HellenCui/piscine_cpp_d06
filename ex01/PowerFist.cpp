@@ -1,6 +1,6 @@
 
 
-#include "PowerFist.hpp"
+#include "PowerFist.hh"
 #include <iostream>
 PowerFist::PowerFist(){
     changeName("Power Fist");

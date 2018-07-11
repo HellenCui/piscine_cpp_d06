@@ -1,6 +1,6 @@
 
 
-#include "SuperMutant.hpp"
+#include "SuperMutant.hh"
 #include <iostream>
 SuperMutant::SuperMutant(){
     std::cout  << "Gaaah. Me want smash heads !" <<std::endl;

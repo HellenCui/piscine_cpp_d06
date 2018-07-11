@@ -1,6 +1,6 @@
 
 
-#include "Character.hpp"
+#include "Character.hh"
 #include <iostream>
 Character::Character(){
     std::cout << "* SPROTCH *";

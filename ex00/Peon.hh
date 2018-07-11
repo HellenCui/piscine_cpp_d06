@@ -1,9 +1,9 @@
 
-#ifndef Peon_hpp
-#define Peon_hpp
+#ifndef Peon_hh
+#define Peon_hh
 
 #include <string>
-#include "Victim.hpp"
+#include "Victim.hh"
 
 class Peon : virtual public Victim {
 protected:

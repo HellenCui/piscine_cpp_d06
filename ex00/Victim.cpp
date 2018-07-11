@@ -1,5 +1,5 @@
 
-#include "Victim.hpp"
+#include "Victim.hh"
 #include <iostream>
 Victim::Victim(){
 }

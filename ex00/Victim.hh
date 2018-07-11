@@ -1,7 +1,7 @@
 
 
-#ifndef Victim_hpp
-#define Victim_hpp
+#ifndef Victim_hh
+#define Victim_hh
 
 #include <string>
 

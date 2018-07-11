@@ -1,9 +1,9 @@
 
-#ifndef RadScorpion_hpp
-#define RadScorpion_hpp
+#ifndef RadScorpion_hh
+#define RadScorpion_hh
 
 #include <string>
-#include "AEnemy.hpp"
+#include "AEnemy.hh"
 
 class RadScorpion : virtual public AEnemy {
 public:

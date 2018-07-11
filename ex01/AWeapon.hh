@@ -1,6 +1,6 @@
 
-#ifndef AWeapon_hpp
-#define AWeapon_hpp
+#ifndef AWeapon_hh
+#define AWeapon_hh
 
 #include <string>
 class AWeapon

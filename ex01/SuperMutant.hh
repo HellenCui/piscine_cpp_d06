@@ -1,10 +1,10 @@
 
 
-#ifndef SuperMutant_hpp
-#define SuperMutant_hpp
+#ifndef SuperMutant_hh
+#define SuperMutant_hh
 
 #include <string>
-#include "AEnemy.hpp"
+#include "AEnemy.hh"
 
 class SuperMutant : virtual public AEnemy {
 protected:

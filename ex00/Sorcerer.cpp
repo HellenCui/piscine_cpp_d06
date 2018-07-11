@@ -1,5 +1,5 @@
 
-#include "Sorcerer.hpp"
+#include "Sorcerer.hh"
 #include <iostream>
 Sorcerer::Sorcerer(std::string const& name, std::string const& title):
     _name(name),

@@ -1,5 +1,5 @@
 
-#include "Peon.hpp"
+#include "Peon.hh"
 #include <iostream>
 
 Peon::Peon() {

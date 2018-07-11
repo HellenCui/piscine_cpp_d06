@@ -1,10 +1,10 @@
 
 
-#ifndef PlasmaRifle_hpp
-#define PlasmaRifle_hpp
+#ifndef PlasmaRifle_hh
+#define PlasmaRifle_hh
 
 #include <string>
-#include "AWeapon.hpp"
+#include "AWeapon.hh"
 
 class PlasmaRifle : virtual public AWeapon
 {    

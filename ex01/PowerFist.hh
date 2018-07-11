@@ -1,10 +1,10 @@
 
 
-#ifndef PowerFist_hpp
-#define PowerFist_hpp
+#ifndef PowerFist_hh
+#define PowerFist_hh
 
 #include <string>
-#include "AWeapon.hpp"
+#include "AWeapon.hh"
 
 class PowerFist : virtual public AWeapon
 {

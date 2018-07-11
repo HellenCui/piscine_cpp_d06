@@ -1,6 +1,6 @@
 
 
-#include "PlasmaRifle.hpp"
+#include "PlasmaRifle.hh"
 #include <iostream>
 PlasmaRifle::PlasmaRifle(){
     changeName("Plasma Rifle");

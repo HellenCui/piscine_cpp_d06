@@ -1,6 +1,6 @@
 
-#ifndef AEnemy_hpp
-#define AEnemy_hpp
+#ifndef AEnemy_hh
+#define AEnemy_hh
 
 #include <string>
 

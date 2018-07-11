@@ -1,6 +1,6 @@
 
 
-#include "AWeapon.hpp"
+#include "AWeapon.hh"
 AWeapon::AWeapon(){
     
 }

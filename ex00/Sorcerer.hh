@@ -1,9 +1,9 @@
 
 
-#ifndef Sorcerer_hpp
-#define Sorcerer_hpp
+#ifndef Sorcerer_hh
+#define Sorcerer_hh
 #include <string>
-#include "Victim.hpp"
+#include "Victim.hh"
 
 class Sorcerer{
 public:
